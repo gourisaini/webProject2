@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  
+    color: white;
+}
+
+nav{
+    padding: 0 8vmax;
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+}
+
+main nav ul{
+    font-size: 1vmax;
+    display: flex;
+    gap:3vmax;
+    list-style: none;
+}
+
+main nav ul li:first-child{
+   border-bottom: 2px solid yellow;
+}
+
+
+main nav h1{
+    font-size: 1.8vmax;
+}
+
+main #left{
+    width: 30%;
+    height: 100%;
+    background-color: #101010;
+}
+
+main #right{
+    width: 70%;
+    height: 100%;
+    background:url(https://images.unsplash.com/photo-1506863530036-1efeddceb993?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1944&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main #left img{
+    width: 50%;
+    margin:20% 0;
+}
+
+main #left h1{
+    position: relative;
+    left: 38%;
+    font-size: 3vmax;
+    font-weight: 400;
+    margin-bottom: 1vmax;
+}
+
+main #left h1 span{
+    font-size: 4vmax;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+main #left #develop{
+    position: relative;
+    left: 38%;
+    background-color: yellow;
+    color: black;
+    font-size: 2vmax;
+    font-weight: 800;
+    padding: 0.6vmax 3vmax;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(180, 180, 180);
+}
+
+section #left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color:rgb(216, 216, 216);
+}
+
+section #left #one{
+    width: 70%;
+    height: 60%;
+    background-color: #101010;
+}
+
+section #left img{
+    margin-left: 5vmax;
+    margin-top: 5vmax;
+    width: 28%;
+    position: absolute;
+}
+
+section #right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background-color:rgb(216, 216, 216);
+    padding: 0 8vmax;
+}
+
+section #right img{
+    width: 38%;
+    rotate: -90deg;
+}
+
+section #right #one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section #right #one h1{
+    text-align: right;
+    font-size: 2vmax;
+}
+
+section #right #one h1 span{
+    background-color: yellow;
+    font-size: 4vmax;
+}
+
+
+section #right #two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section #right #two p{
+    margin: 0 4vmax;
+    font-size: 1.2vmax;
+}
+
+section #right #two img{
+    position: absolute;
+    width: 30%;
+    top: 152%;
+    right:41%;
+}
+
+section #circle{
+    z-index: 1;
+    position: absolute;
+    top: 122%;
+    left: 25%;
+}
+
+footer{
+    margin-top: 5vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1{
+    font-size: 2vmax;
+    font-weight: 700;
+    text-align: right;
+    line-height: 1.2vmax;
+}
+
+footer h1 span{
+    font-size: 0.9vmax;
+    font-weight: 700;
+    background-color: yellow;
+    border-radius: 2vmax;
+}
+
+footer ul{
+    margin: 3vmax 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3vmax;
+    font-size: 0.9vmax;
+    font-weight: 700;
+}
+
+footer ul li:first-child{
+    border-bottom: 5px solid yellow;
+}
+
+footer article{
+    width: 60%;
+}
+
+footer button{
+    margin: 3vmax 0;
+    border-radius: 2vmax;
+    background-color: #101010;
+    color: white;
+    font-size: 0.8vmax;
+    padding: 0.5vmax 2vmax;
+    font-weight: 700;
+    border: none;
+}
